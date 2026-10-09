@@ -1,273 +1,119 @@
-# Awesome-Secure-Hybrid-Data-Tunnel
+# 🔒 Awesome Secure Hybrid Data Tunnel
 
-## Top Secure Hybrid Data Tunnel Ecosystem
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Secure-Hybrid-Data-Tunnel"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Secure-Hybrid-Data-Tunnel?style=flat-square&color=gold" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Secure-Hybrid-Data-Tunnel/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Secure-Hybrid-Data-Tunnel?style=flat-square&color=blue" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Secure-Hybrid-Data-Tunnel/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Secure Hybrid Data Tunnel Banner" width="100%" />
+</p>
 
+## 🚀 Overview & Ecosystem Summary
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+Welcome to the ultimate curated directory of **Secure Hybrid Data Tunnels**, **Zero-Trust Network Access (ZTNA)** solutions, **Private Interconnects**, and **Self-Hosted Mesh VPN Overlays**. 
 
-*Focused on Zero-Trust Tunnels, Private Interconnects & Self-Hosted VPN Overlays*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **commercial secure tunnel and interconnect platforms** and **open-source projects** that connect on-premises infrastructure, private data centers, and cloud environments through encrypted tunnels — replacing public internet exposure and legacy VPN concentrators with identity-aware, least-privilege access.
-
-
-
-**Examples** include Salesforce Secure Data Connector, Cloudflare Tunnel, AWS Direct Connect, Azure ExpressRoute, Google Cloud Interconnect, ngrok Enterprise, Tailscale, ZeroTier, StrongDM, and OpenVPN Cloud (the category leaders).
-
-
-
-**Open-source emphasis**: Secure hybrid data tunnels are one of the strongest open-source domains. **NetBird** leads as the most complete open-source Zero Trust networking platform with WireGuard-based overlay networks, identity provider integration, and self-hosted admin dashboard . **Netmaker** delivers kernel WireGuard performance with access policies and egress routing . **Headscale** provides a self-hosted Tailscale control server with 44K+ GitHub stars . **Pangolin** brings identity-aware reverse proxy tunneling with WireGuard and Traefik . **WireGuard** remains the foundational VPN protocol with kernel-level performance, while **OpenVPN**, **OpenZiti**, and **frp** round out the ecosystem. This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Cloudflare Tunnel](https://www.cloudflare.com/products/tunnel/)**  
-
-  **Cloudflare's zero-trust tunnel** — connect origin servers and private networks to Cloudflare's edge without opening inbound ports . **No public IP required, no firewall changes** . **Identity-aware access via Cloudflare Access** . **Best for exposing private services securely** .
-
-
-
-- **[Tailscale](https://tailscale.com/)**  
-
-  **The easiest WireGuard-based mesh VPN** — identity-aware networking with ACLs, MagicDNS, and SSO . **Free tier for personal use** . **Clients are open source; coordination server is proprietary** . **Best for developer-friendly zero-trust networking** .
-
-
-
-- **[ZeroTier](https://www.zerotier.com/)**  
-
-  **Multi-cloud SDN platform** — custom protocol with strong NAT traversal . **Client and core protocol open source; controller source-available** . **Best for legacy SDN deployments** .
-
-
-
-- **[ngrok Enterprise](https://ngrok.com/)**  
-
-  **Secure tunnels to localhost** — expose local services to the internet with authentication, IP restrictions, and observability . **Best for development, webhooks, and demos** .
-
-
-
-- **[StrongDM](https://www.strongdm.com/)**  
-
-  **Zero-trust access platform** — managed database, server, Kubernetes, and web app access without VPNs . **Best for enterprise infrastructure access** .
-
-
-
-- **[AWS Direct Connect](https://aws.amazon.com/directconnect/)**  
-
-  **Dedicated private network connection to AWS** — bypasses public internet with consistent low latency and higher bandwidth . **Best for enterprise cloud connectivity** .
-
-
-
-- **[Azure ExpressRoute](https://azure.microsoft.com/en-us/products/expressroute/)**  
-
-  **Private connection to Azure** — dedicated fiber through connectivity providers . **Best for enterprise Azure workloads** .
-
-
-
-- **[Google Cloud Interconnect](https://cloud.google.com/interconnect)**  
-
-  **Dedicated private connectivity to Google Cloud** — high availability with 99.99% SLA . **Best for enterprise GCP workloads** .
-
-
-
-- **[OpenVPN Cloud](https://openvpn.net/cloud-vpn/)**  
-
-  **Managed OpenVPN service** — cloud VPN with private networking . **Best for organizations wanting managed OpenVPN** .
-
-
-
-- **[Salesforce Secure Data Connector](https://www.salesforce.com/)**  
-
-  **Salesforce's tunnel to on-premises data** — secure access to internal data from Salesforce . **Best for Salesforce customers with on-prem data** .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Zero-Trust Overlay Networks
-
-
-
-- **[NetBird](https://github.com/netbirdio/netbird)**  
-
-  **Open-source Zero Trust networking platform**, Apache-2.0 licensed . **WireGuard-based peer-to-peer overlay networks** — connects devices anywhere with automatic NAT traversal . **Identity provider integration for granular access control** — integrate with Okta, Azure AD, Google, or any OIDC provider . **Self-hosted with admin dashboard** — full data ownership . **The strongest pick for teams wanting a managed-like experience with full data ownership** . **Best for zero-trust hybrid connectivity** .
-
-
-
-- **[Netmaker](https://github.com/gravitl/netmaker)**  
-
-  **WireGuard-based Zero Trust networking platform**, Apache-2.0 licensed . **Creates flat, encrypted overlay networks** — every node is "next door" regardless of physical location . **Kernel WireGuard for superior performance** . **Gateways for traffic relaying, security policies with IDP integration, and egress routing** . **Best for multi-cloud and hybrid cloud networking** .
-
-
-
-- **[Headscale](https://github.com/juanfont/headscale)**  
-
-  **Self-hosted Tailscale control server**, BSD-3-Clause licensed with **44,000+ GitHub stars** . **Use Tailscale clients with your own coordination server** . **The best combination of speed, security, and vendor independence for most self-hosters** . **Best for Tailscale without vendor dependency** .
-
-
-
-- **[Pangolin](https://github.com/fosrl/pangolin)**  
-
-  **Identity-aware reverse proxy tunnel**, open-source . **Securely exposes private resources through encrypted WireGuard tunnels** — no open inbound ports . **Built-in identity provider with SSO, MFA, and role-based access** . **Traefik integration with CrowdSec and badger for security and performance** . **Newt client for agent-to-traefik tunneling** . **Best for identity-aware reverse tunneling** .
-
-
-
-### VPN & Tunneling Protocols
-
-
-
-- **[WireGuard](https://github.com/WireGuard/wireguard-linux)**  
-
-  **The modern VPN protocol underlying most tunnel solutions**, GPL-2.0 licensed . **Kernel-level performance with modern cryptography** . **The building block for Netmaker, NetBird, Tailscale, and Headscale** . **Best for high-performance encrypted tunnels** .
-
-
-
-- **[OpenVPN](https://github.com/OpenVPN/openvpn)**  
-
-  **The veteran open-source VPN**, GPL-2.0 licensed . **TCP fallback for restrictive firewalls** . **Best for legacy VPN compatibility** .
-
-
-
-- **[OpenZiti](https://github.com/openziti/ziti)**  
-
-  **Open-source zero trust networking platform**, Apache-2.0 licensed with **2,900+ GitHub stars** . **Comprehensive ZTNA with embeddable SDKs** . **No inbound ports, no public DNS, no VPN** . **Best for full control over zero-trust infrastructure** .
-
-
-
-- **[frp](https://github.com/fatedier/frp)**  
-
-  **Fast reverse proxy for exposing local servers behind NAT**, Apache-2.0 licensed with **109,000+ GitHub stars** . **The most popular tunneling tool for self-hosters** . **Best for exposing local services** .
-
-
-
-### Secure Access Proxies
-
-
-
-- **[Pomerium](https://github.com/pomerium/pomerium)**  
-
-  **Identity-aware access proxy**, Apache-2.0 licensed with **4,000+ GitHub stars** . **BeyondCorp-style access with SSO integration** . **Best for securing internal applications with zero trust** .
-
-
-
-- **[Teleport](https://github.com/gravitational/teleport)**  
-
-  **Identity-based access for infrastructure**, Apache-2.0 licensed with **16,000+ GitHub stars** . **Certificate-based access to SSH, Kubernetes, databases, and web apps** . **No static credentials** . **Best for infrastructure access** .
-
-
-
-- **[Cloudflared](https://github.com/cloudflare/cloudflared)**  
-
-  **Cloudflare Tunnel client**, Apache-2.0 licensed . **Connect origins to Cloudflare without opening inbound ports** . **Best for Cloudflare Tunnel users** .
-
-
-
-- **[rathole](https://github.com/rapiz1/rathole)**  
-
-  **Lightweight, high-performance reverse proxy in Rust**, Apache-2.0 licensed . **Alternative to frp and ngrok** . **Best for lightweight tunneling** .
-
-
-
-- **[Chisel](https://github.com/jpillora/chisel)**  
-
-  **Fast TCP/UDP tunnel over HTTP with SSH**, MIT licensed . **Secure tunneling with authentication** . **Best for secure tunnels** .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **sish** — Open-source ngrok alternative, HTTP(S)/WS(S)/TCP tunnels to localhost .
-
-- **bore** — Simple CLI tool for making tunnels to localhost .
-
-- **localtunnel** — Expose localhost to the world .
-
-- **Tinc** — Mesh VPN daemon .
-
-- **Nebula** — Slack's overlay networking .
-
-- **Innernet** — Private network for containers .
-
-- **Pritunl Zero** — BeyondCorp-style access .
-
-- **wg-access-server** — All-in-one WireGuard VPN with web UI .
-
-- **Gluetun** — VPN client with WireGuard and OpenVPN support .
-
-- **Werther** — WireGuard tunnel management with OIDC (discontinued but archived) .
-
-
-
-**Frameworks for building custom secure hybrid data tunnel solutions**: Combine **NetBird** for zero-trust overlay networking with identity provider integration . Use **Netmaker** for kernel WireGuard performance with access policies and egress routing . Deploy **Headscale** for self-hosted Tailscale control server . Choose **Pangolin** for identity-aware reverse proxy tunneling with SSO and MFA . Integrate **WireGuard** for foundational encrypted tunnels . Use **Pomerium** or **Teleport** for identity-aware access to internal applications and infrastructure . Note that true enterprise hybrid connectivity with dedicated interconnects, managed SLAs, and global points of presence (Cloudflare Tunnel, AWS Direct Connect, Azure ExpressRoute) remains primarily commercial territory; open-source stacks provide strong overlay networking, encrypted tunnels, and zero-trust access foundations that require integration for complete hybrid connectivity.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Secure tunnel platforms handle sensitive network traffic and credentials. Self-hosted solutions require proper security hardening, key management, and compliance with data privacy regulations.
-
-- **Zero-trust tunnels are not a silver bullet** — they must be combined with endpoint security, data protection, and monitoring for complete security architecture .
-
-- **Identity provider integration is critical** — tunnels are only as strong as your identity verification. Use MFA and device trust for sensitive resources .
-
-- **License considerations**: NetBird uses Apache-2.0 , Netmaker uses Apache-2.0 , Headscale uses BSD-3-Clause , Pangolin is open-source , WireGuard uses GPL-2.0 , and Teleport uses Apache-2.0 . Verify licensing against your use case before committing.
-
-- The open-source ecosystem provides strong overlay networking, encrypted tunnels, and zero-trust access foundations, but **dedicated interconnects, managed SLAs, and global points of presence** remain primarily commercial offerings.
-
-
+Connecting hybrid multi-cloud infrastructure, on-premises data centers, edge nodes, and local development environments to remote clients requires modern, identity-aware, least-privilege networking. This repository indexes both top commercial enterprise platforms and high-star open-source GitHub tools.
 
 ---
 
+## 📌 Table of Contents
 
+- [💡 Market Overview & Sector Analysis](#-market-overview--sector-analysis)
+- [🏢 SaaS & Managed Enterprise Platforms](#-saas--managed-enterprise-platforms)
+- [⚡ Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛡️ Comparison Framework](#️-comparison-framework)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#️-disclaimer)
+- [⭐ Star History](#-star-history)
 
-**Made for network engineers, infrastructure architects, and organizations seeking secure hybrid data tunnel sovereignty.**
+---
 
-Let's make secure hybrid data tunnels more open, transparent, and zero-trust oriented.
+## 💡 Market Overview & Sector Analysis
+
+**Estimated Market Size**: The global **Secure Hybrid Data Tunnel & Zero-Trust Network Access (ZTNA)** market is estimated at **$7.2 Billion (2026)** and is projected to reach **$18.4 Billion by 2030** (~19.5% CAGR).
+
+**Market Dynamics**: The sector is **moderately fragmented**. Hyperscale cloud providers (*Microsoft Azure, Google Cloud, AWS*) dominate high-bandwidth physical infrastructure and private fiber interconnects. Concurrently, specialized Zero-Trust overlay vendors (*Tailscale, Cloudflare, ngrok, NetBird*) capture rapidly expanding application-level edge tunneling, mesh VPNs, and identity-aware proxying.
+
+---
+
+## 🏢 SaaS & Managed Enterprise Platforms
+
+> Listed and sorted by **Company Size / Market Capitalization / Valuation (Descending)**.
+
+| 🏢 Platform / Provider | 💼 Company Size &amp; Valuation | 💵 Starting Tier Pricing | 🎁 Free Tier &amp; Trial Limits | 🎯 Primary Use Case |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Azure ExpressRoute](https://azure.microsoft.com/en-us/products/expressroute/)** | **~$3.1 Trillion** (Market Cap - MSFT) | **$55.00/month** (50 Mbps Local circuit + $0.025/GB egress) | **30-Day Free Trial** ($200 Azure credits + 12 mo free services) | Enterprise private fiber circuit directly into Microsoft Azure cloud |
+| **[Google Cloud Interconnect](https://cloud.google.com/interconnect)** | **~$2.1 Trillion** (Market Cap - GOOGL) | **$0.05/hour (~$36.50/mo)** (50 Mbps Partner attachment + egress) | **90-Day Free Trial** ($300 GCP free credits for new accounts) | High-availability dedicated & partner interconnects for Google Cloud |
+| **[AWS Direct Connect](https://aws.amazon.com/directconnect/)** | **~$1.9 Trillion** (Market Cap - AMZN) | **$0.03/hour (~$21.60/mo)** (1 Gbps port + $0.02/GB egress) | **12-Month Free Tier** (10 GB Data Transfer Out free per month) | Low-latency private network connection bypassing public internet to AWS |
+| **[Salesforce Private Connect](https://www.salesforce.com/)** | **~$280 Billion** (Market Cap - CRM) | **$2,000.00/month** (per Private Connect add-on connection) | **30-Day Free Trial** (via Salesforce Developer Edition sandbox) | Secure bidirectional AWS VPC tunnel for Salesforce Hyperforce data |
+| **[Cloudflare Tunnel](https://www.cloudflare.com/products/tunnel/)** | **~$28 Billion** (Market Cap - NET) | **$7.00/user/month** (Zero Trust Standard plan for org features) | **Free Forever Plan** (Unlimited tunnels & up to 50 Zero Trust users) | Exposing web services & private networks without open inbound ports |
+| **[Tailscale](https://tailscale.com/)** | **$1.0 Billion** (Series B Valuation) | **$6.00/user/month** (Starter tier, billed annually) | **Free Forever Plan** (3 users, 100 devices & 3 subnet routers) | Zero-config mesh VPN overlay powered by WireGuard, SSO & MagicDNS |
+| **[ngrok Enterprise](https://ngrok.com/)** | **~$350 Million** (Series A Valuation) | **$8.00/month** (Personal tier with 1 agent & 3 reserved domains) | **Free Forever Plan** (1 agent, 1 user, 1 static domain & 1 GB/mo bandwidth) | Developer reverse tunnels to localhost with auth, TLS & webhooks |
+| **[StrongDM](https://www.strongdm.com/)** | **~$300 Million** (Series B Valuation) | **$70.00/user/month** (Enterprise infrastructure access plan) | **14-Day Free Trial** (Full feature access for unlimited nodes) | Zero-trust access proxy for databases, servers, K8s & web apps |
+| **[OpenVPN Cloud (CloudConnexa)](https://openvpn.net/cloud-vpn/)** | **~$200 Million** (Est. Enterprise Value) | **$7.00/connection/mo** (Standard tier billed annually at $75/yr) | **Free Forever Plan** (3 concurrent connections & 1 network region) | Cloud-managed virtual network with Zero Trust Application Access (ZTAA) |
+| **[ZeroTier](https://www.zerotier.com/)** | **~$75 Million** (Series A Valuation) | **$5.00/month** (Professional tier including 25 admin seats) | **Free Forever Plan** (1 admin user & up to 25 connected devices) | Software-defined virtual Ethernet switch across multi-cloud & edge |
+
+---
+
+## ⚡ Open-Source GitHub Projects
+
+> Listed and sorted by **GitHub Star Count (Descending)**. Star badges link directly to each project's stargazers page.
+
+| 📦 Repository &amp; Star Count | 📜 License | 🛠️ Technology Stack | 📝 Key Description &amp; Focus |
+| :--- | :--- | :--- | :--- |
+| **[frp](https://github.com/fatedier/frp)** [![GitHub stars](https://img.shields.io/github/stars/fatedier/frp?style=social)](https://github.com/fatedier/frp/stargazers) | `Apache-2.0` | Go | High-performance reverse proxy for exposing local servers behind NAT/firewall to the internet. |
+| **[Headscale](https://github.com/juanfont/headscale)** [![GitHub stars](https://img.shields.io/github/stars/juanfont/headscale?style=social)](https://github.com/juanfont/headscale/stargazers) | `BSD-3-Clause` | Go | Open-source, self-hosted implementation of the Tailscale coordination server. |
+| **[NetBird](https://github.com/netbirdio/netbird)** [![GitHub stars](https://img.shields.io/github/stars/netbirdio/netbird?style=social)](https://github.com/netbirdio/netbird/stargazers) | `BSD-3-Clause` | Go / WireGuard | Zero-trust peer-to-peer overlay network platform with IDP integration & self-hosted admin UI. |
+| **[Pangolin](https://github.com/fosrl/pangolin)** [![GitHub stars](https://img.shields.io/github/stars/fosrl/pangolin?style=social)](https://github.com/fosrl/pangolin/stargazers) | `AGPL-3.0` | Go / WireGuard / Traefik | Identity-aware reverse proxy & zero-trust tunneling platform with SSO & CrowdSec support. |
+| **[localtunnel](https://github.com/localtunnel/localtunnel)** [![GitHub stars](https://img.shields.io/github/stars/localtunnel/localtunnel?style=social)](https://github.com/localtunnel/localtunnel/stargazers) | `MIT` | Node.js | Expose local development server ports to public URLs without firewall configuration. |
+| **[Teleport](https://github.com/gravitational/teleport)** [![GitHub stars](https://img.shields.io/github/stars/gravitational/teleport?style=social)](https://github.com/gravitational/teleport/stargazers) | `AGPL-3.0` | Go | Identity-aware access proxy providing zero-trust access to SSH, Kubernetes, databases & web apps. |
+| **[Nebula](https://github.com/slackhq/nebula)** [![GitHub stars](https://img.shields.io/github/stars/slackhq/nebula?style=social)](https://github.com/slackhq/nebula/stargazers) | `MIT` | Go | Scalable, fast, and secure mesh overlay networking tool originally created by Slack. |
+| **[Chisel](https://github.com/jpillora/chisel)** [![GitHub stars](https://img.shields.io/github/stars/jpillora/chisel?style=social)](https://github.com/jpillora/chisel/stargazers) | `MIT` | Go / SSH | Fast TCP/UDP tunnel over HTTP secured via SSH encryption. |
+| **[cloudflared](https://github.com/cloudflare/cloudflared)** [![GitHub stars](https://img.shields.io/github/stars/cloudflare/cloudflared?style=social)](https://github.com/cloudflare/cloudflared/stargazers) | `Apache-2.0` | Go | Official Cloudflare Tunnel client connecting origin servers to Cloudflare edge network. |
+| **[Gluetun](https://github.com/qdm12/gluetun)** [![GitHub stars](https://img.shields.io/github/stars/qdm12/gluetun?style=social)](https://github.com/qdm12/gluetun/stargazers) | `MIT` | Go / Docker | Lightweight VPN client container supporting WireGuard & OpenVPN with DNS-over-TLS. |
+| **[rathole](https://github.com/rapiz1/rathole)** [![GitHub stars](https://img.shields.io/github/stars/rapiz1/rathole?style=social)](https://github.com/rapiz1/rathole/stargazers) | `Apache-2.0` | Rust | Lightweight, high-performance reverse proxy in Rust for NAT traversal; alternative to frp & ngrok. |
+| **[Netmaker](https://github.com/gravitl/netmaker)** [![GitHub stars](https://img.shields.io/github/stars/gravitl/netmaker?style=social)](https://github.com/gravitl/netmaker/stargazers) | `SSPL / Apache-2.0` | Go / Kernel WireGuard | Fast, kernel-level WireGuard overlay networks for multi-cloud & hybrid cloud topologies. |
+| **[bore](https://github.com/ekzhang/bore)** [![GitHub stars](https://img.shields.io/github/stars/ekzhang/bore?style=social)](https://github.com/ekzhang/bore/stargazers) | `MIT` | Rust | Simple and efficient CLI tool in Rust for tunneling local ports to public endpoints. |
+| **[Pomerium](https://github.com/pomerium/pomerium)** [![GitHub stars](https://img.shields.io/github/stars/pomerium/pomerium?style=social)](https://github.com/pomerium/pomerium/stargazers) | `Apache-2.0` | Go | Identity & context-aware reverse proxy implementing BeyondCorp access control model. |
+| **[sish](https://github.com/antoniomika/sish)** [![GitHub stars](https://img.shields.io/github/stars/antoniomika/sish?style=social)](https://github.com/antoniomika/sish/stargazers) | `MIT` | Go | Open-source ngrok alternative supporting HTTP/WS/TCP tunnels purely via standard SSH. |
+| **[WireGuard](https://github.com/WireGuard/wireguard-go)** [![GitHub stars](https://img.shields.io/github/stars/WireGuard/wireguard-go?style=social)](https://github.com/WireGuard/wireguard-go/stargazers) | `MIT` | Go / C | Foundational, high-performance VPN protocol underlying modern mesh overlay networks. |
+| **[OpenZiti](https://github.com/openziti/ziti)** [![GitHub stars](https://img.shields.io/github/stars/openziti/ziti?style=social)](https://github.com/openziti/ziti/stargazers) | `Apache-2.0` | Go | Full-featured programmable zero-trust networking platform with application-embedded SDKs. |
+| **[tinc](https://github.com/gsliepen/tinc)** [![GitHub stars](https://img.shields.io/github/stars/gsliepen/tinc?style=social)](https://github.com/gsliepen/tinc/stargazers) | `GPL-2.0` | C | Peer-to-peer VPN daemon using encryption and compression to create mesh networks. |
+| **[wg-access-server](https://github.com/freifunkMUC/wg-access-server)** [![GitHub stars](https://img.shields.io/github/stars/freifunkMUC/wg-access-server?style=social)](https://github.com/freifunkMUC/wg-access-server/stargazers) | `MIT` | Go | All-in-one WireGuard VPN server with Web UI & OIDC single sign-on support. |
+
+---
+
+## 🛡️ Comparison Framework
+
+When choosing between **Commercial Cloud Interconnects**, **Managed Zero-Trust SaaS Tunnels**, and **Self-Hosted Open-Source Mesh Networks**, evaluate your architecture against these dimensions:
+
+1. **Network Layer**: Layer 3 (IP/WireGuard overlay) vs Layer 4 (TCP/UDP proxying) vs Layer 7 (HTTP/Identity reverse proxying).
+2. **Identity Integration**: Direct OIDC / SAML / SSO provider binding vs static SSH keys vs pre-shared secrets.
+3. **Data Plane Control**: Vendor-managed coordination server vs completely air-gapped self-hosted control plane (*e.g., Headscale, NetBird*).
+4. **Performance & Overhead**: Kernel-space WireGuard processing vs user-space proxy routing.
+
+---
+
+## 🤝 How to Contribute
+
+1. Fork this repository.
+2. Add your tool to `README.md` in the appropriate table (**SaaS** or **Open-Source**).
+3. Ensure exact starting tier pricing, free tier limits, licensing, and star counts are included.
+4. Open a Pull Request with a short summary of the addition.
+
+---
+
+## ⚠️ Disclaimer
+
+- This repository is a **community-curated directory** provided for educational and architectural reference.
+- Secure tunneling tools handle mission-critical network traffic; always perform independent security audits and licensing compliance checks.
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Secure-Hybrid-Data-Tunnel&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Secure-Hybrid-Data-Tunnel&type=date&legend=top-left)
