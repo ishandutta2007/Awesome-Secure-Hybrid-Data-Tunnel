@@ -27,7 +27,8 @@ Connecting hybrid multi-cloud infrastructure, on-premises data centers, edge nod
 - [⚡ Open-Source GitHub Projects](#-open-source-github-projects)
 - [🛡️ Comparison Framework](#️-comparison-framework)
 - [🤝 How to Contribute](#-how-to-contribute)
-- [⚠️ Disclaimer](#️-disclaimer)
+- [💖 Support](#-support)
+- [⚠️ Disclaimer](#-disclaimer)
 - [⭐ Star History](#-star-history)
 
 ---
@@ -104,6 +105,16 @@ When choosing between **Commercial Cloud Interconnects**, **Managed Zero-Trust S
 2. Add your tool to `README.md` in the appropriate table (**SaaS** or **Open-Source**).
 3. Ensure exact starting tier pricing, free tier limits, licensing, and star counts are included.
 4. Open a Pull Request with a short summary of the addition.
+
+---
+
+## 💖 Support
+
+Thank you for exploring this curated directory! If you found this list helpful, please consider supporting the project:
+
+- ⭐ **Star this repository** on GitHub to help others discover it.
+- 🍴 **Fork and share** it with your engineering team and network.
+- ☕ **Buy me a coffee / Sponsor**: Support ongoing maintenance on the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
 
 ---
 
